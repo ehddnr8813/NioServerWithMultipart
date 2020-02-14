@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3a0336f-f427-491b-ba8d-3385376f6959" name="Default Changelist" comment="" />
+    <list default="true" id="c3a0336f-f427-491b-ba8d-3385376f6959" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$AcceptHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$AcceptHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$IOHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$IOHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$IOSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$IOSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/httpserver/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/httpserver/HttpServer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XbLrI6yxZXZIHEid0chimLETXp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -94,46 +108,76 @@
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3570" y="455" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581324382164" />
-    <state x="3645" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1581335506333">
-      <screen x="2560" y="0" width="2560" height="1400" />
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1581413253937">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581413253937" />
     <state x="3645" y="416" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581335506333" />
     <state x="2991" y="609" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581326303676">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="2991" y="609" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581326303676" />
-    <state x="3643" y="479" key="FileChooserDialogImpl" timestamp="1581340306252">
+    <state x="3643" y="479" key="FileChooserDialogImpl" timestamp="1581640198156">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="3643" y="479" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581340306252" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1581341201175">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="3643" y="479" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581640198156" />
+    <state width="2517" height="460" key="GridCell.Tab.0.bottom" timestamp="1581671243938">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581341201175" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581338877747" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1581341201175">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="1242" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581423885153" />
+    <state width="2517" height="460" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581671243938" />
+    <state width="2517" height="460" key="GridCell.Tab.0.center" timestamp="1581671243938">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581341201175" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581338877747" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1581341201175">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="1242" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581423885153" />
+    <state width="2517" height="460" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581671243938" />
+    <state width="2517" height="460" key="GridCell.Tab.0.left" timestamp="1581671243938">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581341201175" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581338877747" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1581341201175">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2517" height="1242" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581423885153" />
+    <state width="2517" height="460" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581671243938" />
+    <state width="2517" height="460" key="GridCell.Tab.0.right" timestamp="1581671243938">
+      <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581341201175" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581338877747" />
+    <state width="2517" height="1242" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581423885153" />
+    <state width="2517" height="460" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581671243938" />
+    <state width="2517" height="404" key="GridCell.Tab.1.bottom" timestamp="1581600842352">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581600842352" />
+    <state width="2517" height="404" key="GridCell.Tab.1.center" timestamp="1581600842352">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581600842352" />
+    <state width="2517" height="404" key="GridCell.Tab.1.left" timestamp="1581600842351">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581600842351" />
+    <state width="2517" height="404" key="GridCell.Tab.1.right" timestamp="1581600842352">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="404" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581600842352" />
     <state x="2680" y="278" key="SettingsEditor" timestamp="1581326416698">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="2680" y="278" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581326416698" />
+    <state x="3532" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1581640185529">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="972" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581380622330" />
+    <state x="3532" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581640185529" />
+    <state x="3219" y="310" key="new project wizard" timestamp="1581494768119">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3219" y="310" key="new project wizard/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581494768119" />
     <state x="3582" y="318" key="refactoring.ChangeSignatureDialog" timestamp="1581333395675">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3582" y="318" key="refactoring.ChangeSignatureDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581333395675" />
+    <state x="3496" y="330" key="run.anything.popup" timestamp="1581588843525">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3496" y="330" key="run.anything.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581588843525" />
     <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1581327023561">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
@@ -144,8 +188,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="1" />
+          <line>49</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

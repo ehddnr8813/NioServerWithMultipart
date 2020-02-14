@@ -12,13 +12,9 @@ import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.nio.channels.spi.AbstractSelectableChannel;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -36,6 +32,7 @@ public class HttpServer {
     private final Worker acceptWorker;
     private final AtomicInteger counter = new AtomicInteger(0);
     private final List<Worker> ioWorkers;
+    private ConcurrentHashMap<SocketChannel, Long> clients = new ConcurrentHashMap<SocketChannel, Long>();
 
     public HttpServer(final String host, final int port, final HttpHandler handler) {
         this.host = host;
@@ -45,6 +42,8 @@ public class HttpServer {
         final int size = Runtime.getRuntime().availableProcessors() - 1;
         this.ioWorkers = IntStream.range(0, size)
                 .mapToObj(i -> new Worker(Selector::open)).collect(Collectors.toList());
+        IdleSocketChecker isc = new IdleSocketChecker();
+        new Thread(isc).start();
     }
 
     public void start() throws IOException {
@@ -54,7 +53,6 @@ public class HttpServer {
         final ServerSocketChannel ssc = ServerSocketChannel.open();
         ssc.configureBlocking(false);
         ssc.setOption(StandardSocketOptions.SO_REUSEADDR, true);
-        ssc.setOption(StandardSocketOptions.SO_LINGER, 5000);
         //ssc.setOption(StandardSocketOptions.SO_LINGER, 0);
         ssc.bind(new InetSocketAddress(host, port));
         acceptWorker.register(ssc, SelectionKey.OP_ACCEPT, new AcceptHandler());
@@ -86,8 +84,9 @@ public class HttpServer {
             final ServerSocketChannel ssc = (ServerSocketChannel) key.channel();
             final SocketChannel sc = ssc.accept();
             sc.setOption(StandardSocketOptions.SO_REUSEADDR, true);
-
             sc.configureBlocking(false);
+            clients.put(sc, System.currentTimeMillis());
+
             final int index = counter.getAndIncrement() % ioWorkers.size();
             ioWorkers.get(index).register(sc, SelectionKey.OP_READ, new IOHandler());
         }
@@ -173,6 +172,7 @@ public class HttpServer {
         @Override
         public void run() {
             logger.info(() -> getName() + " begin");
+
             try {
                 while (running.get()) {
                     selector.select(key -> {
@@ -210,6 +210,32 @@ public class HttpServer {
         }
     }
 
+    private void checkIdleSockets() {
+        Iterator<Map.Entry<SocketChannel, Long>> iter = clients.entrySet().iterator();
+        while (iter.hasNext()) {
+            try {
+                Map.Entry<SocketChannel, Long> entry = iter.next();
+                SocketChannel client = entry.getKey();
+                long mills = entry.getValue();
+                double minutes = (System.currentTimeMillis() - mills) / (double) (30*1000);
+                if (minutes > 0.5) {
+                    /* key is idle for */
+                    //logger.info("[IdleSocketChecker] Socket is idle for " + Math.round(minutes) + ", closing......");
+                    try {
+                        client.close();
+                    } catch (IOException e) {
+                    } finally {
+                        iter.remove();
+                    }
+                }
+            } catch (Exception e) {
+
+            }
+        }
+        logger.info("[checkIdleSockets] Total connected : " + clients.size());
+    }
+
+
     @FunctionalInterface
     private interface IOAction {
         void act() throws IOException;
@@ -225,6 +251,22 @@ public class HttpServer {
                 return get();
             } catch (final IOException e) {
                 throw new UncheckedIOException(e);
+            }
+        }
+    }
+
+    private class IdleSocketChecker implements Runnable{
+        private boolean RUN = true;
+
+        @Override
+        public void run() {
+            try{
+                while(RUN){
+                    Thread.sleep(30*1000);
+                    checkIdleSockets();
+                }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
     }
