@@ -16,7 +16,7 @@ import main.httpserver.HttpServer;
 public class EchoServer {
 
     public static void main(final String[] args) throws Exception {
-        final HttpServer server = new HttpServer("127.0.0.1", 8080, EchoServer::handle);
+        final HttpServer server = new HttpServer("10.30.166.171", 8080, EchoServer::handle);
         server.start();
         System.in.read();
         server.stop();
@@ -34,7 +34,7 @@ public class EchoServer {
         } else {
             s = new String(request.entity.array());
         }
-        File file= new File("src/resource/airplane.png");
+        File file= new File("src/resource/makeFile.html");
         byte[] bytes= new byte[(int)file.length()];
 
         FileInputStream fileInputStream = new FileInputStream(file);

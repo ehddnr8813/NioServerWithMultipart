@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3a0336f-f427-491b-ba8d-3385376f6959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$AcceptHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$AcceptHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$Handler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$IOHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$IOHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$IOSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$IOSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer$Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/httpserver/HttpServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NIO_SocketChannel_HttpServer/main/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EchoServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/httpserver/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/httpserver/HttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,55 +112,60 @@
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="2991" y="609" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581326303676" />
-    <state x="3643" y="479" key="FileChooserDialogImpl" timestamp="1581640198156">
+    <state x="1346" y="475" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582010796728">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1346" y="475" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1582010796728" />
+    <state x="3643" y="479" key="FileChooserDialogImpl" timestamp="1582534920856">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="3643" y="479" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581640198156" />
-    <state width="2517" height="460" key="GridCell.Tab.0.bottom" timestamp="1581671243938">
+    <state x="1083" y="479" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1582015611911" />
+    <state x="3643" y="479" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582534920856" />
+    <state width="2517" height="515" key="GridCell.Tab.0.bottom" timestamp="1582543160871">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="515" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1582543160871" />
+    <state width="2517" height="515" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582535912920" />
+    <state width="2517" height="515" key="GridCell.Tab.0.center" timestamp="1582543160870">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="515" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1582543160870" />
+    <state width="2517" height="515" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582535912918" />
+    <state width="2517" height="515" key="GridCell.Tab.0.left" timestamp="1582543160870">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="515" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1582543160870" />
+    <state width="2517" height="515" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582535912918" />
+    <state width="2517" height="515" key="GridCell.Tab.0.right" timestamp="1582543160871">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="515" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1582543160871" />
+    <state width="2517" height="515" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582535912920" />
+    <state width="2517" height="404" key="GridCell.Tab.1.bottom" timestamp="1582278685815">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="1242" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581423885153" />
-    <state width="2517" height="460" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581671243938" />
-    <state width="2517" height="460" key="GridCell.Tab.0.center" timestamp="1581671243938">
+    <state width="2517" height="404" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582278685815" />
+    <state width="2517" height="404" key="GridCell.Tab.1.center" timestamp="1582278685815">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="1242" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581423885153" />
-    <state width="2517" height="460" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581671243938" />
-    <state width="2517" height="460" key="GridCell.Tab.0.left" timestamp="1581671243938">
+    <state width="2517" height="404" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582278685815" />
+    <state width="2517" height="404" key="GridCell.Tab.1.left" timestamp="1582278685814">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="1242" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581423885153" />
-    <state width="2517" height="460" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581671243938" />
-    <state width="2517" height="460" key="GridCell.Tab.0.right" timestamp="1581671243938">
+    <state width="2517" height="404" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582278685814" />
+    <state width="2517" height="404" key="GridCell.Tab.1.right" timestamp="1582278685815">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="1242" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581423885153" />
-    <state width="2517" height="460" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581671243938" />
-    <state width="2517" height="404" key="GridCell.Tab.1.bottom" timestamp="1581600842352">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="404" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581600842352" />
-    <state width="2517" height="404" key="GridCell.Tab.1.center" timestamp="1581600842352">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="404" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581600842352" />
-    <state width="2517" height="404" key="GridCell.Tab.1.left" timestamp="1581600842351">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="404" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581600842351" />
-    <state width="2517" height="404" key="GridCell.Tab.1.right" timestamp="1581600842352">
-      <screen x="2560" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="404" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581600842352" />
+    <state width="2517" height="404" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1582278685815" />
     <state x="2680" y="278" key="SettingsEditor" timestamp="1581326416698">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="2680" y="278" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581326416698" />
-    <state x="3532" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1581640185529">
-      <screen x="2560" y="0" width="2560" height="1400" />
+    <state x="972" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1582015586483">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="972" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1581380622330" />
-    <state x="3532" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581640185529" />
+    <state x="972" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1582015586483" />
+    <state x="3532" y="524" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1581899166330" />
     <state x="3219" y="310" key="new project wizard" timestamp="1581494768119">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
@@ -187,32 +187,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
-          <line>49</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/EchoServer.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpServer.java</url>
-          <line>176</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/main/httpserver/HttpResponseFormatter.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
